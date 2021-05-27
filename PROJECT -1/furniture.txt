@@ -1,0 +1,733 @@
+create table furniture(sid int,price dec(10,2),category int,types int,variety int,slide int,qty int,varieties_name varchar(50),type_name varchar(50),category_name varchar(50));
+insert into furniture values('001',55000.00,'1','11','111','1111',10,'Walken Bed','Double Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('002',55000.00,'1','11','111','1112');
+insert into furniture(sid,price,category,types,variety,slide) values('003',55000.00,'1','11','111','1113');
+
+
+insert into furniture values('004',59198.00,'1','11','112','1121',10,'Ferguson Bed','Double Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('005',59198.00,'1','11','112','1122');
+insert into furniture(sid,price,category,types,variety,slide) values('006',59198.00,'1','11','112','1123');
+
+insert into furniture values('007',16499.00,'1','11','113','1131',10,'Adolph Bed','Double Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('008',16499.00,'1','11','113','1132');
+insert into furniture(sid,price,category,types,variety,slide) values('009',16499.00,'1','11','113','1133');
+
+insert into furniture values('010',45599.00,'1','11','114','1141',10,'Denzel Bed','Double Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('011',45599.00,'1','11','114','1142');
+insert into furniture(sid,price,category,types,variety,slide) values('012',45599.00,'1','11','114','1143');
+
+
+
+
+
+
+insert into furniture values('013',42399.00,'1','12','121','1211',10,'Nova Kids','Kids Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('014',42399.00,'1','12','121','1212');
+
+
+
+
+insert into furniture values('015',36999.00,'1','12','122','1221',10,'Cheshire Bunk Bed','Kids Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('016',36999.00,'1','12','122','1222');
+insert into furniture(sid,price,category,types,variety,slide) values('017',36999.00,'1','12','122','1223');
+
+
+
+
+
+
+insert into furniture values('018',8790.00,'1','12','123','1231',10,'Blossom Bunk Bed','Kids Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('019',8790.00,'1','12','123','1232');
+insert into furniture(sid,price,category,types,variety,slide) values('020',8790.00,'1','12','123','1233');
+
+
+
+
+
+insert into furniture values('021',68499.00,'1','12','124','1241',10,'Sierra Kids Bed','Kids Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('022',68499.00,'1','12','124','1242');
+insert into furniture(sid,price,category,types,variety,slide) values('023',68499.00,'1','12','124','1243');
+
+
+
+
+
+insert into furniture values('024',56500.00,'1','13','131','1311',10,'Walken Bed','King size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('025',56500.00,'1','13','131','1312');
+insert into furniture(sid,price,category,types,variety,slide) values('026',56500.00,'1','13','131','1313');
+
+
+
+
+insert into furniture values('027',54500.00,'1','13','132','1321',10,'Ferguson Bed','King size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('028',54500.00,'1','13','132','1322');
+insert into furniture(sid,price,category,types,variety,slide) values('029',54500.00,'1','13','132','1323');
+
+
+
+
+
+
+insert into furniture values('030',50699.00,'1','13','133','1331',10,'Denzel Bed','King size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('031',50699.00,'1','13','133','1332');
+insert into furniture(sid,price,category,types,variety,slide) values('032',50699.00,'1','13','133','1333');
+
+insert into furniture values('033',16499.00,'1','13','134','1341',10,'Herley Hydraylic Bed','King size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('034',16499.00,'1','13','134','1342');
+insert into furniture(sid,price,category,types,variety,slide) values('035',16499.00,'1','13','134','1343');
+
+
+
+
+
+
+
+insert into furniture values('036',51299.00,'1','14','141','1411',10,'Wisker Poster Bed','Poster Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('037',51299.00,'1','14','141','1412');
+insert into furniture(sid,price,category,types,variety,slide) values('038',51299.00,'1','14','141','1413');
+
+
+
+
+
+insert into furniture values('039',34276.00,'1','14','142','1421',10,'Corsey Poster Bed','Poster Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('040',34276.00,'1','14','142','1422');
+insert into furniture(sid,price,category,types,variety,slide) values('041',34276.00,'1','14','142','1423');
+
+
+
+
+
+insert into furniture values('042',43275.00,'1','14','143','1431',10,'Kayur Poster Bed','Poster Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('043',43275.00,'1','14','143','1432');
+insert into furniture(sid,price,category,types,variety,slide) values('044',43275.00,'1','14','143','1433');
+
+
+
+insert into furniture values('045',17399.00,'1','14','144','1441',10,'Allure Poster Bed','Poster Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('046',17399.00,'1','14','144','1442');
+insert into furniture(sid,price,category,types,variety,slide) values('047',17399.00,'1','14','144','1443');
+
+
+insert into furniture values('048',45289.00,'1','15','151','1511',10,'Ferguson Bed','Queen Size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('049',45289.00,'1','15','151','1512');
+insert into furniture(sid,price,category,types,variety,slide) values('050',45289.00,'1','15','151','1513');
+
+
+
+
+
+
+insert into furniture values('051',32899.00,'1','15','152','1521',10,'Hout Bed','Queen Size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('052',32899.00,'1','15','152','1522');
+insert into furniture(sid,price,category,types,variety,slide) values('053',32899.00,'1','15','152','1523');
+
+
+insert into furniture values('054',18939.00,'1','15','153','1531',10,'Bolivia Bed','Queen Size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('055',18939.00,'1','15','153','1532');
+insert into furniture(sid,price,category,types,variety,slide) values('056',18939.00,'1','15','153','1533');
+
+
+
+insert into furniture values('057',53499.00,'1','15','154','1541',10,'Melisandre Bed','Queen Size Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('058',53499.00,'1','15','154','1542');
+insert into furniture(sid,price,category,types,variety,slide) values('059',53499.00,'1','15','154','1543');
+
+
+
+
+
+
+insert into furniture values('060',29799.00,'1','16','161','1611',10,'Venus Bed','Single Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('061',29799.00,'1','16','161','1612');
+insert into furniture(sid,price,category,types,variety,slide) values('062',29799.00,'1','16','161','1613');
+
+
+insert into furniture values('063',43499.00,'1','16','162','1621',10,'Bacon Bed','Single Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('064',43499.00,'1','16','162','1622');
+insert into furniture(sid,price,category,types,variety,slide) values('065',43499.00,'1','16','162','1623');
+
+
+insert into furniture values('066',29898.00,'1','16','163','1631',10,'Arista Bed','Single Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('067',29898.00,'1','16','163','1632');
+insert into furniture(sid,price,category,types,variety,slide) values('068',29898.00,'1','16','163','1633');
+
+
+insert into furniture values('069',41499.00,'1','16','164','1641',10,'Cambrey Bed','Single Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('070',41499.00,'1','16','164','1642');
+insert into furniture(sid,price,category,types,variety,slide) values('071',41499.00,'1','16','164','1643');
+
+
+
+
+insert into furniture values('072',44599.00,'1','17','171','1711',10,'Sereta Bed','Sofa Cum Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('073',44599.00,'1','17','171','1712');
+insert into furniture(sid,price,category,types,variety,slide) values('074',44599.00,'1','17','171','1713');
+
+
+insert into furniture values('075',29799.00,'1','17','172','1721',10,'Feltor Bed','Sofa Cum Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('076',29799.00,'1','17','172','1722');
+insert into furniture(sid,price,category,types,variety,slide) values('077',29799.00,'1','17','172','1723');
+
+
+insert into furniture values('078',42499.00,'1','17','173','1731',10,'Claridge Fabric Bed','Sofa Cum Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('079',42499.00,'1','17','173','1732');
+insert into furniture(sid,price,category,types,variety,slide) values('080',42499.00,'1','17','173','1733');
+
+
+insert into furniture values('081',41489.00,'1','17','174','1741',10,'Vigo Bed','Sofa Cum Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('082',41489.00,'1','17','174','1742');
+insert into furniture(sid,price,category,types,variety,slide) values('083',41489.00,'1','17','174','1743');
+
+
+insert into furniture values('084',55000.00,'1','17','175','1751',10,'Savannah Bed','Sofa Cum Bed','Bed');
+insert into furniture(sid,price,category,types,variety,slide) values('085',55000.00,'1','17','175','1752');
+insert into furniture(sid,price,category,types,variety,slide) values('086',55000.00,'1','17','175','1753');
+
+//sofa
+------------
+                                                        
+insert into furniture values('087',39989.00,'2','21','211','2111',10,'Archerd Sofa','Fabric Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('088',39989.00,'2','21','211','2112');
+insert into furniture(sid,price,category,types,variety,slide) values('089',39989.00,'2','21','211','2113');
+
+
+
+insert into furniture values('090',47989.00,'2','21','212','2121',10,'Berlin Sofa','Fabric Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('091',47989.00,'2','21','212','2122');
+insert into furniture(sid,price,category,types,variety,slide) values('092',47989.00,'2','21','212','2123');
+
+
+
+insert into furniture values('093',29999.00,'2','21','213','2131',10,'Christoph Sofa','Fabric Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('094',29999.00,'2','21','213','2132');
+insert into furniture(sid,price,category,types,variety,slide) values('095',29999.00,'2','21','213','2133');
+
+
+insert into furniture values('096',5500,19599.00,'2','21','214','2141',10,'Parker Sofa','Fabric Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('097',19599.00,'2','21','214','2142');
+insert into furniture(sid,price,category,types,variety,slide) values('098',19599.00,'2','21','214','2143');
+
+
+insert into furniture values('099',72989.00,'2','22','221','2211',10,'Henry L-left Arm Sofa','L-Shaped Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('100',72989.00,'2','22','221','2212');
+insert into furniture(sid,price,category,types,variety,slide) values('101',72989.00,'2','22','221','2213');
+
+
+insert into furniture values('102',72000.00,'2','22','222','2221',10,'Henry L-Right Arm Sofa','L-Shaped Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('103',72000.00,'2','22','221','2212');
+insert into furniture(sid,price,category,types,variety,slide) values('104',72000.00,'2','22','221','2213');
+
+
+insert into furniture values('105',47989.00,'2','22','223','2231',10,'Mckellen Sofa','L-Shaped Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('106',47989.00,'2','22','223','2232');
+insert into furniture(sid,price,category,types,variety,slide) values('107',47989.00,'2','22','223','2233');
+
+insert into furniture values('108',56989.00,'2','22','224','2241',10,'Nicols Sofa','L-Shaped Sofa Set','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('109',56989.00,'2','22','224','2242');
+insert into furniture(sid,price,category,types,variety,slide) values('110',56989.00,'2','22','224','2243');
+
+
+
+insert into furniture values('111',44989.00,'2','23','231','2311',10,'Corsicn Sofa','Sofa Cum Bed','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('112',44989.00,'2','23','231','2312');
+insert into furniture(sid,price,category,types,variety,slide) values('113',44989.00,'2','23','231','2313');
+
+
+insert into furniture values('114',35989.00,'2','23','232','2321',10,'Feltr Sofa','Sofa Cum Bed','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('115',35989.00,'2','23','232','2322');
+insert into furniture(sid,price,category,types,variety,slide) values('116',35989.00,'2','23','232','2323');
+
+insert into furniture values('117',43799.00,'2','23','233','2331',10,'Savannach Sofa','Sofa Cum Bed','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('118',43799.00,'2','23','233','2332');
+insert into furniture(sid,price,category,types,variety,slide) values('119',43799.00,'2','23','233','2333');
+
+
+insert into furniture values('120',46699.00,'2','23','234','2341',10,'Vigo Sofa','Sofa Cum Bed','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('121',46699.00,'2','23','234','2342');
+insert into furniture(sid,price,category,types,variety,slide) values('122',46699.00,'2','23','234','2343');
+
+
+
+
+
+insert into furniture values('123',19599.00,'2','24','241','2411',10,'Caspr Two Seater Sofa','Two Seater Sofa','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('124',19599.00,'2','24','241','2412');
+insert into furniture(sid,price,category,types,variety,slide) values('125',19599.00,'2','24','241','2413');
+
+
+
+insert into furniture values('126',24919.00,'2','24','242','2421',10,'Margret  Two Seater Sofa','Two Seater Sofa','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('127',24919.00,'2','24','242','2422');
+insert into furniture(sid,price,category,types,variety,slide) values('128',24919.00,'2','24','242','2423');
+
+
+
+insert into furniture values('129',40299.00,'2','24','243','2431',10,'Nicolas  Two Seater Sofa','Two Seater Sofa','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('130',40299.00,'2','24','243','2432');
+insert into furniture(sid,price,category,types,variety,slide) values('131',40299.00,'2','24','243','2433');
+
+
+
+
+insert into furniture values('132',25279.00,'2','24','244','2441',10,'Richi  Two Seater Sofa','Two Seater Sofa','Sofa');
+insert into furniture(sid,price,category,types,variety,slide) values('133',25279.00,'2','24','244','2442');
+insert into furniture(sid,price,category,types,variety,slide) values('134',25279.00,'2','24','244','2443');
+
+
+//Dinning
+-----------
+insert into furniture values('135',56499.00,'3','31','311','3111',10,'Cambrey Four Seater Dinning','Four Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('136',56499.00,'3','31','311','3112');
+insert into furniture(sid,price,category,types,variety,slide) values('137',56499.00,'3','31','311','3113');
+
+
+
+
+
+insert into furniture values('138',49989.00,'3','31','312','3121',10,'Clark Four Seater Dinning','Four Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('139',49989.00,'3','31','312','3122');
+insert into furniture(sid,price,category,types,variety,slide) values('140',49989.00,'3','31','312','3123');
+
+
+insert into furniture values('141',56499.00,'3','31','313','3131',10,'Reid Four Seater Dinning','Four Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('142',56499.00,'3','31','313','3132');
+insert into furniture(sid,price,category,types,variety,slide) values('143',56499.00,'3','31','313','3133');
+
+
+
+insert into furniture values('144',72499.00,'3','32','321','3211',10,'Cambrey Six Seater Dinning','Six Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('145',72499.00,'3','32','321','3212');
+insert into furniture(sid,price,category,types,variety,slide) values('146',72499.00,'3','32','321','3213');
+
+
+insert into furniture values('147',72599.00,'3','32','322','3221',10,'Fedora Six Seater Dinning','Six Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('148',72599.00,'3','32','322','3222');
+insert into furniture(sid,price,category,types,variety,slide) values('149',72599.00,'3','32','322','3223');
+
+
+insert into furniture values('150',72999.00,'3','32','323','3231',10,'Franco Six Seater Dinning','Six Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('151',72999.00,'3','32','323','3232');
+insert into furniture(sid,price,category,types,variety,slide) values('152',72999.00,'3','32','323','3233');
+insert into furniture(sid,price,category,types,variety,slide) values('153',72999.00,'3','32','323','3234');
+
+
+
+insert into furniture values('154',72699.00,'3','32','324','3241',10,'Janet Six Seater Dinning','Six Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('155',72699.00,'3','32','324','3242');
+insert into furniture(sid,price,category,types,variety,slide) values('156',72699.00,'3','32','324','3243');
+
+
+
+
+
+insert into furniture values('157',52999.00,'3','33','331','3311',10,'Cambrey Eight Seater Dinning','Eight Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('158',52999.00,'3','33','331','3312');
+insert into furniture(sid,price,category,types,variety,slide) values('159',52999.00,'3','33','331','3313');
+
+
+
+insert into furniture values('160',53989.00,'3','33','332','3321',10,'Janet Eight Seater Dinning','Eight Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('161',53989.00,'3','33','332','3322');
+insert into furniture(sid,price,category,types,variety,slide) values('162',53989.00,'3','33','332','3323');
+
+
+
+
+insert into furniture values('163',47999.00,'3','33','333','3331',10,'Mcbeth Eight Seater Dinning','Eight Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('164',47999.00,'3','33','333','3332');
+insert into furniture(sid,price,category,types,variety,slide) values('165',47999.00,'3','33','333','3333');
+
+
+insert into furniture values('166',54999.00,'3','33','334','3341',10,'Volpel Eight Seater Dinning','Eight Seater Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('167',54999.00,'3','33','334','3342');
+insert into furniture(sid,price,category,types,variety,slide) values('168',54999.00,'3','33','334','3343');
+
+
+
+
+
+insert into furniture values('169',42899.00,'3','34','341','3411',10,'Benz Extendable Dinning','Extendable Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('170',42899.00,'3','34','341','3412');
+
+
+
+
+
+insert into furniture values('171',56000.00,'3','34','342','3421',10,'Paul Extendable Dinning','Extendable Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('172',56000.00,'3','34','342','3422');
+insert into furniture(sid,price,category,types,variety,slide) values('173',56000.00,'3','34','342','3423');
+
+
+
+
+
+insert into furniture values('174'41999.00,'3','34','343','3431',10,'Tim Extendable Dinning','Extendable Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('175',41999.00,'3','34','343','3432');
+
+
+
+insert into furniture values('176',34899.00,'3','35','351','3511',10,'Ashford Round Dinning','Round Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('177',34899.00,'3','35','351','3512');
+insert into furniture(sid,price,category,types,variety,slide) values('178',34899.00,'3','35','351','3513');
+
+
+insert into furniture values('179',36219.00,'3','35','352','3521',10,'Clark Round Dinning','Round Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('180',36219.00,'3','35','352','3522');
+insert into furniture(sid,price,category,types,variety,slide) values('181',36219.00,'3','35','352','3523');
+
+
+insert into furniture values('182',41129.00,'3','35','353','3531',10,'Isadora Round Dinning','Round Dinning','Dinning');
+insert into furniture(sid,price,category,types,variety,slide) values('183',41129.00,'3','35','353','3532');
+insert into furniture(sid,price,category,types,variety,slide) values('184',41129.00,'3','35','353','3533');
+
+
+
+//Tv unit
+-----------
+insert into furniture values('185',18499.00,'4','41','411','4111',10,'Natalila Tv Unit','Entertainment Center','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('186',18499.00,'4','41','411','4112');
+insert into furniture(sid,price,category,types,variety,slide) values('187',18499.00,'4','41','411','4113');
+
+
+insert into furniture values('188',19499.00,'4','41','412','4121',10,'Lynton Tv Unit','Entertainment Center','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('189',19499.00,'4','41','412','4122');
+insert into furniture(sid,price,category,types,variety,slide) values('190',19499.00,'4','41','412','4123');
+
+insert into furniture values('191',17499.00,'4','41','413','4131',10,'Emboss Tv Unit','Entertainment Center','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('192',17499.00,'4','41','413','4132');
+insert into furniture(sid,price,category,types,variety,slide) values('193',17499.00,'4','41','413','4133');
+
+insert into furniture values('194',19898.00,'4','41','414','4141',10,'Florian Tv Unit','Entertainment Center','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('195',19898.00,'4','41','414','4142');
+insert into furniture(sid,price,category,types,variety,slide) values('196',19898.00,'4','41','414','4143');
+
+
+
+insert into furniture values('197',14989.00,'4','42','421','4211',10,'Carvel Tv Unit','Industrial Tv Units','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('198',14989.00,'4','42','421','4212');
+insert into furniture(sid,price,category,types,variety,slide) values('199',14989.00,'4','42','421','4213');
+
+
+insert into furniture values('200',21499.00,'4','42','422','4221',10,'Carto Tv Unit','Industrial Tv Units','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('201',21499.00,'4','42','422','4222');
+insert into furniture(sid,price,category,types,variety,slide) values('202',21499.00,'4','42','422','4223');
+
+
+
+insert into furniture values('203',32989.00,'4','42','423','4231',10,'Sanpple Tv Unit','Industrial Tv Units','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('204',32989.00,'4','42','423','4232');
+insert into furniture(sid,price,category,types,variety,slide) values('205',32989.00,'4','42','423','4233');
+
+
+
+insert into furniture values('206',21799.00,'4','42','424','4241',10,'Grapho Tv Unit','Industrial Tv Units','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('207',21799.00,'4','42','424','4242');
+insert into furniture(sid,price,category,types,variety,slide) values('208',21799.00,'4','42','424','4243');
+
+
+insert into furniture values('209',51999.00,'4','43','431','4311',10,'Kristen Wall Mounted Tv','Wall Mount','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('210',51999.00,'4','43','431','4312');
+insert into furniture(sid,price,category,types,variety,slide) values('211',51999.00,'4','43','431','4313');
+
+
+insert into furniture values('212',15989.00,'4','43','432','4321',10,'Vinsente Wall Mounted Tv','Wall Mount','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('213',15989.00,'4','43','432','4322');
+insert into furniture(sid,price,category,types,variety,slide) values('214',15989.00,'4','43','432','4323');
+
+
+insert into furniture values('215',24999.00,'4','43','433','4331',10,'Zett Wall Mounted Tv','Wall Mount','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('216',24999.00,'4','43','433','4332');
+insert into furniture(sid,price,category,types,variety,slide) values('217',24999.00,'4','43','433','4333');
+
+insert into furniture values('218',32699.00,'4','43','434','4341',10,'Carto Wall Mounted Tv','Wall Mount','Tv Unit');
+insert into furniture(sid,price,category,types,variety,slide) values('219',32699.00,'4','43','434','4342');
+insert into furniture(sid,price,category,types,variety,slide) values('220',32699.00,'4','43','434','4343');
+
+
+//Bookshelves
+--------------
+
+insert into furniture values('221',4580.00,'5','51','511','5111',10,'Boho Bookshelves','Bookreck','Bookshelves');
+insert into furniture(sid,price,category,types,variety,slide) values('222',4580.00,'5','51','511','5112');
+insert into furniture(sid,price,category,types,variety,slide) values('223',4580.00,'5','51','511','5113');
+
+insert into furniture values('224',5000.00,'5','51','512','5121',10,'Cagney Bookshelves','Bookreck','Bookshelves');
+insert into furniture(sid,price,category,types,variety,slide) values('225',5000.00,'5','51','512','5122');
+insert into furniture(sid,price,category,types,variety,slide) values('226',5000.00,'5','51','512','5123');
+
+insert into furniture values('227',4500.00,'5','51','513','5131',10,'Cambrey Bookshelves','Bookreck','Bookshelves');
+insert into furniture(sid,price,category,types,variety,slide) values('228',4500.00,'5','51','513','5132');
+insert into furniture(sid,price,category,types,variety,slide) values('229',4500.00,'5','51','513','5133');
+
+
+insert into furniture values('230',6500.00,'5','51','514','5141',10,'Regio Bookshelves','Bookreck','Bookshelves');
+insert into furniture(sid,price,category,types,variety,slide) values('231',6500.00,'5','51','514','5142');
+insert into furniture(sid,price,category,types,variety,slide) values('232',6500.00,'5','51','514','5143');
+
+
+insert into furniture values('233',5964.00,'5','51','515','5151',10,'Severino Bookshelves','Bookreck','Bookshelves');
+insert into furniture(sid,price,category,types,variety,slide) values('234',5964.00,'5','51','515','5152');
+insert into furniture(sid,price,category,types,variety,slide) values('235',5964.00,'5','51','515','5153');
+
+
+
+
+
+
+
+
+
+
+
+
+//Study Table
+---------------
+insert into furniture values('236',4897.00,'6','61','611','6111',10,'Frodo Study Table','Corner Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('237',4897.00,'6','61','611','6112');
+insert into furniture(sid,price,category,types,variety,slide) values('238',4897.00,'6','61','611','6113');
+
+
+insert into furniture values('239',4553.00,'6','61','612','6121',10,'Mathers Study Table','Corner Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('240',4553.00,'6','61','612','6122');
+insert into furniture(sid,price,category,types,variety,slide) values('241',4553.00,'6','61','612','6123');
+
+
+insert into furniture values('242',4811.00,'6','61','613','6131',10,'Murphu Study Table','Corner Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('243',4811.00,'6','61','613','6132');
+insert into furniture(sid,price,category,types,variety,slide) values('244',4811.00,'6','61','613','6133');
+
+
+insert into furniture values('245',2967.00,'6','61','614','6141',10,'Serra Study Table','Corner Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('246',2967.00,'6','61','614','6142');
+insert into furniture(sid,price,category,types,variety,slide) values('247',2967.00,'6','61','614','6143');
+
+
+
+
+insert into furniture values('248',2500.00,'6','62','621','6211',10,'Flex Industrial Study Table','Industrial Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('249',2500.00,'6','62','621','6212');
+insert into furniture(sid,price,category,types,variety,slide) values('250',2500.00,'6','62','621','6213');
+
+insert into furniture values('251',5841.00,'6','62','622','6221',10,'Olay Industrial Study Table','Industrial Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('252',5841.00,'6','62','622','6222');
+insert into furniture(sid,price,category,types,variety,slide) values('253',5841.00,'6','62','622','6223');
+
+
+insert into furniture values('254',8990.00,'6','62','623','6231',10,'Porter Industrial Study Table','Industrial Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('255',8990.00,'6','62','623','6232');
+insert into furniture(sid,price,category,types,variety,slide) values('256',8990.00,'6','62','623','6233');
+
+
+insert into furniture values('257',8631.00,'6','62','624','6241',10,'Raport Industrial Study Table','Industrial Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('258',8631.00,'6','62','624','6242');
+insert into furniture(sid,price,category,types,variety,slide) values('259',8631.00,'6','62','624','6243');
+
+
+
+insert into furniture values('260',3645.00,'6','63','631','6311',10,'Amsten Study Table','Study Cum Shelf','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('261',3645.00,'6','63','631','6312');
+insert into furniture(sid,price,category,types,variety,slide) values('262',3645.00,'6','63','631','6313');
+
+
+insert into furniture values('263',7090.00,'6','63','632','6321',10,'Jerold Study Table','Study Cum Shelf','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('264',7090.00,'6','63','632','6322');
+insert into furniture(sid,price,category,types,variety,slide) values('265',7090.00,'6','63','632','6323');
+
+
+insert into furniture values('266',3464.00,'6','63','633','6331',10,'Zenecn Study Table','Study Cum Shelf','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('267',3464.00,'6','63','633','6332');
+insert into furniture(sid,price,category,types,variety,slide) values('268',3464.00,'6','63','633','6333');
+
+
+
+insert into furniture values('269',6124.00,'6','64','641','6411',10,'Canyon Wall Mounted Study Table','Wall Mounted Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('270',6124.00,'6','64','641','6412');
+insert into furniture(sid,price,category,types,variety,slide) values('271',6124.00,'6','64','641','6413');
+
+
+insert into furniture values('272',9624.00,'6','64','642','6421',10,'Carmel Wall Mounted Study Table','Wall Mounted Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('273',9624.00,'6','64','642','6422');
+insert into furniture(sid,price,category,types,variety,slide) values('274',9624.00,'6','64','642','6423');
+
+
+
+insert into furniture values('275',7191.00,'6','64','643','6431',10,'Picaro Wall Mounted Study Table','Wall Mounted Study Table','Study Table');
+insert into furniture(sid,price,category,types,variety,slide) values('276',7191.00,'6','64','643','6432');
+insert into furniture(sid,price,category,types,variety,slide) values('277',7191.00,'6','64','643','6433');
+
+
+
+
+//Wardrobes
+------------
+insert into furniture values('278',7714.00,'7','71','711','7111',10,'Boho Multi Utility Wardrobes','One Door Wardrobes','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('279',7714.00,'7','71','711','7112');
+insert into furniture(sid,price,category,types,variety,slide) values('280',7714.00,'7','71','711','7113');
+
+
+
+insert into furniture values('281',4990.00,'7','71','712','7121',10,'Adolph Wardrobes','One Door Wardrobes','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('282',4990.00,'7','71','712','7122');
+insert into furniture(sid,price,category,types,variety,slide) values('283',4990.00,'7','71','712','7123');
+
+
+insert into furniture values('284',10061.00,'7','71','713','7131',10,'Cambrey One Door Wardrobes','One Door Wardrobes','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('285',10061.00,'7','71','713','7132');
+insert into furniture(sid,price,category,types,variety,slide) values('286',10061.00,'7','71','713','7133');
+
+
+
+insert into furniture values('287',6124.00,'7','72','721','7211',10,'Citroen Two Door Wardrobes','Two Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('288',6124.00,'7','72','721','7212');
+insert into furniture(sid,price,category,types,variety,slide) values('289',6124.00,'7','72','721','7213');
+
+
+insert into furniture values('290',9624.00,'7','72','722','7221',10,'Lynet Wardrobes','Two Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('291',9624.00,'7','72','722','7222');
+insert into furniture(sid,price,category,types,variety,slide) values('292',9624.00,'7','72','722','7223');
+
+
+insert into furniture values('293',6999.00,'7','72','723','7231',10,'Zed Wradrobes','Two Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('294',6999.00,'7','72','723','7232');
+insert into furniture(sid,price,category,types,variety,slide) values('295',6999.00,'7','72','723','7233');
+
+insert into furniture values('296',7874.00,'7','72','724','7241',10,'Charles Wardrobes','Two Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('297',7874.00,'7','72','724','7242');
+insert into furniture(sid,price,category,types,variety,slide) values('298',7874.00,'7','72','724','7243');
+
+insert into furniture values('299',9624.00,'7','73','731','7311',10,'Felner Wardrobes','Three Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('300',9624.00,'7','73','731','7312');
+insert into furniture(sid,price,category,types,variety,slide) values('301',9624.00,'7','73','731','7313');
+
+
+
+insert into furniture values('302',10061.00,'7','73','732','7321',10,'Swirl Wardrobes','Three Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('303',10061.00,'7','73','732','7322');
+insert into furniture(sid,price,category,types,variety,slide) values('304',10061.00,'7','73','732','7323');
+
+insert into furniture values('305',10499.00,'7','73','733','7331',10,'Allan Wardrobes','Three Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('306',10499.00,'7','73','733','7332');
+insert into furniture(sid,price,category,types,variety,slide) values('307',10499.00,'7','73','733','7333');
+
+insert into furniture values('308',8749.00,'7','73','734','7341',10,'Howler Wardrobes','Three Door','Door Wardrobes');
+insert into furniture(sid,price,category,types,variety,slide) values('309',8749.00,'7','73','734','7342');
+insert into furniture(sid,price,category,types,variety,slide) values('310',8749.00,'7','73','734','7343');
+
+
+
+
+
+//Storage
+-----------
+insert into furniture values('311',4050.00,'8','81','811','8111',10,'Melisander','Chest And Drawers','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('312',4050.00,'8','81','811','8112');
+insert into furniture(sid,price,category,types,variety,slide) values('313',4050.00,'8','81','811','8113');
+
+insert into furniture values('314',10499.00,'8','81','812','8121',10,'Serena','Chest And Drawers','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('315',10499.00,'8','81','812','8122');
+insert into furniture(sid,price,category,types,variety,slide) values('316',10499.00,'8','81','812','8123');
+
+insert into furniture values('317',7436.00,'8','81','813','8131',10,'Crisco','Chest And Drawers','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('318',7436.00,'8','81','813','8132');
+insert into furniture(sid,price,category,types,variety,slide) values('319',7436.00,'8','81','813','8133');
+
+insert into furniture values('320',2186.00,'8','81','814','8141',10,'Morse','Chest And Drawers','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('321',2186.00,'8','81','814','8142');
+insert into furniture(sid,price,category,types,variety,slide) values('322',2186.00,'8','81','814','8143');
+
+
+
+
+insert into furniture values('323',18599.00,'8','82','821','8211',10,'Aelita','Hutch Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('324',18599.00,'8','82','821','8212');
+insert into furniture(sid,price,category,types,variety,slide) values('325',18599.00,'8','82','821','8213');
+
+
+insert into furniture values('326',17567.00,'8','82','822','8221',10,'Clayton','Hutch Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('327',17567.00,'8','82','822','8222');
+insert into furniture(sid,price,category,types,variety,slide) values('328',17567.00,'8','82','822','8223');
+
+insert into furniture values('329',6789.00,'8','82','823','8231',10,'Maglory','Hutch Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('330',6789.00,'8','82','823','8232');
+insert into furniture(sid,price,category,types,variety,slide) values('331',6789.00,'8','82','823','8233');
+
+
+insert into furniture values('332',22489.00,'8','82','824','8241',10,'Crestor','Hutch Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('333',22489.00,'8','82','824','8242');
+insert into furniture(sid,price,category,types,variety,slide) values('334',22489.00,'8','82','824','8243');
+
+insert into furniture values('335',16989.00,'8','83','831','8311',10,'Hamlet Sideboard','Kitchen Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('336',16989.00,'8','83','831','8312');
+insert into furniture(sid,price,category,types,variety,slide) values('337',16989.00,'8','83','831','8313');
+
+insert into furniture values('338',17989.00,'8','83','832','8321',10,'Clovis','Kitchen Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('339',17989.00,'8','83','832','8322');
+insert into furniture(sid,price,category,types,variety,slide) values('340',17989.00,'8','83','832','8323');
+
+
+
+insert into furniture values('341',29989.00,'8','83','833','8331',10,'Kingsley','Kitchen Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('342',29989.00,'8','83','833','8332');
+insert into furniture(sid,price,category,types,variety,slide) values('343',29989.00,'8','83','833','8333');
+
+insert into furniture values('344',34999.00,'8','83','834','8341',10,'Felner','Kitchen Cabinets','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('345',34999.00,'8','83','834','8342');
+insert into furniture(sid,price,category,types,variety,slide) values('346',34999.00,'8','83','834','8343');
+
+
+insert into furniture values('347',17199.00,'8','84','841','8411',10,'Sonic','Kitchen Trolly','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('348',17199.00,'8','84','841','8412');
+insert into furniture(sid,price,category,types,variety,slide) values('349',17199.00,'8','84','841','8413');
+
+
+
+
+insert into furniture values('350',18989.00,'8','84','842','8421',10,'Kansis','Kitchen Trolly','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('351',18989.00,'8','84','842','8422');
+insert into furniture(sid,price,category,types,variety,slide) values('352',18989.00,'8','84','842','8423');
+
+insert into furniture values('353',10999.00,'8','84','843','8431',10,'jansis','Kitchen Trolly','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('354',10999.00,'8','84','843','8432');
+insert into furniture(sid,price,category,types,variety,slide) values('355',10999.00,'8','84','843','8433');
+
+
+
+insert into furniture values('356',16399.00,'8','84','844','8441',10,'Nedra','Kitchen Trolly','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('357',16399.00,'8','84','844','8442');
+insert into furniture(sid,price,category,types,variety,slide) values('358',16399.00,'8','84','844','8443');
+
+
+
+
+insert into furniture values('359',20499.00,'8','85','851','8511',10,'Riota','Wall Storage Cabinets Of Drawer','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('360',20499.00,'8','85','851','8512');
+insert into furniture(sid,price,category,types,variety,slide) values('361',20499.00,'8','85','851','8513');
+
+insert into furniture values('362',1499.00,'8','85','852','8521',10,'West Coast Framed','Wall Storage Cabinets Of Drawer','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('363',1499.00,'8','85','852','8522');
+insert into furniture(sid,price,category,types,variety,slide) values('364',1499.00,'8','85','852','8523');
+
+insert into furniture values('365',1599.00,'8','85','853','8531',10,'Blue Wood Framed','Wall Storage Cabinets Of Drawer','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('366',1599.00,'8','85','853','8532');
+insert into furniture(sid,price,category,types,variety,slide) values('367',1599.00,'8','85','853','8533');
+
+insert into furniture values('368',2699.00,'8','85','854','8541',10,'Paladin','Wall Storage Cabinets Of Drawer','Storage');
+insert into furniture(sid,price,category,types,variety,slide) values('369',2699.00,'8','85','854','8542');
+insert into furniture(sid,price,category,types,variety,slide) values('370',2699.00,'8','85','854','8543');
+
+
+
+
+
+select * from furniture where FLOOR(variety/100) = 2;
+
+
+
+
+
+
+create table customer(slno int(100),username varchar(50),name varchar(50),pincode int,state varchar(50),city varchar(50),phone_number int,payment_method varchar(50),product_name varchar(50),price dec(10,2),qty int,purchase_date date);
+
+
+
