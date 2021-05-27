@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(bed.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.signup{
+	width:300px;
+	height: 600px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.signup p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.signup input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.signup input[type="text"],input[type="text"],input[type="email"],input[type="password"],input[type="password"]
+{
+	border: 2px;
+	border-bottom: 3px solid #fff;
+	background: transparent;
+	outline: none;
+	height:40px;
+	color: #fff;
+	font-size: 16px;
+}
+.signup input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.signup input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107:
+	color: #000;
+}
+.signup a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+}
+
+.signup a:hover
+{
+	color:#ffc107;
+}
+
